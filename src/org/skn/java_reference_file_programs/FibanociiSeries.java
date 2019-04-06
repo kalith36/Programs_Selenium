@@ -7,7 +7,7 @@ public class FibanociiSeries {
 		for (int i = 1; i <= 10; i++) {
 			c = a + b;// c=2
 			System.out.println(c);
-			/** sum of previous two consecutive number is FibanociiSeries **/
+			/** sum of previous two preceding number is FibanociiSeries **/
 			a = b;// a=1
 			b = c;// b=2
 		}
